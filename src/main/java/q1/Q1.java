@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Q1 {
+	
     static class Interval {
         int start;
         int end;
@@ -99,4 +100,5 @@ public class Q1 {
             System.out.println(i.start + " " + i.end);
         }
     }
+
 }
