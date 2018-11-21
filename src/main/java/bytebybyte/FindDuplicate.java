@@ -7,13 +7,12 @@ class FindDuplicate
     { 
         int i;   
         System.out.println("The repeating elements are : "); 
-      // 
         for (i = 0; i < size; i++) 
         { 
         	
-        	System.out.println(" " + Math.abs(arr[i]));
+        	//System.out.println(" " + Math.abs(arr[i]));
         	
-        	System.out.println(" " + arr[Math.abs(arr[i])]);
+        	//System.out.println(" " + arr[Math.abs(arr[i])]);
         	
             if (arr[Math.abs(arr[i])] >= 0) {
             	

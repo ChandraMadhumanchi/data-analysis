@@ -12,8 +12,11 @@ public class LRU {
 	}
 	
 	int capacity;
+	
 	HashMap<Integer,Entry> hm = new HashMap<Integer,Entry>();
+	
 	Entry start, end;
+	
 	public LRU(int capacity){
 		this.capacity = capacity;
 	}
@@ -84,6 +87,7 @@ public class LRU {
 
 		// your code goes here
 		LRU lrucache = new LRU(6);
+		
 				lrucache.put(1, 1);
 				lrucache.put(10, 15);
 				lrucache.put(15, 10);
